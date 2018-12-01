@@ -1,0 +1,88 @@
+
+
+.This is GussianNB model
+Training Accuracy : 0.6452418096723869
+
+Tseting Accuracy : 0.6329390354868062
+
+
+Classification Report: 
+             precision    recall  f1-score   support
+
+        0.0       0.61      0.91      0.73      3041
+        1.0       0.72      0.29      0.41      2454
+
+avg / total       0.66      0.63      0.59      5495
+
+Confusion matrix
+[[2769  272]
+ [1745  709]]
+
+.This is Linear SVC model
+After tuning the model, the best one is: 
+LinearSVC(C=0.01, class_weight=None, dual=True, fit_intercept=True,
+     intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+     multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+     verbose=0)
+
+Training Accuracy : 0.7073322932917316
+Tseting Accuracy : 0.7031847133757961
+Classification Report: 
+             precision    recall  f1-score   support
+
+        0.0       0.70      0.80      0.75      3041
+        1.0       0.70      0.58      0.64      2454
+
+avg / total       0.70      0.70      0.70      5495
+
+Confusion matrix
+[[2430  611]
+ [1020 1434]]
+
+.This is Logistic Regression model
+After tuning the model, the best one is: 
+LogisticRegression(C=10.01, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+
+Training Accuracy : 0.7113104524180968
+Tseting Accuracy : 0.7062784349408553
+Classification Report: 
+             precision    recall  f1-score   support
+
+        0.0       0.71      0.80      0.75      3041
+        1.0       0.70      0.59      0.64      2454
+
+avg / total       0.71      0.71      0.70      5495
+
+Confusion matrix
+[[2424  617]
+ [ 997 1457]]
+
+.This is RandomForest Classifier model
+After tuning the model, the best one is: 
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=8, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=500, n_jobs=1,
+            oob_score=False, random_state=42, verbose=0, warm_start=False)
+
+Training Accuracy : 0.7382995319812793
+Classification Report: 
+             precision    recall  f1-score   support
+
+        0.0       0.68      0.87      0.77      3041
+        1.0       0.76      0.50      0.60      2454
+
+avg / total       0.72      0.71      0.69      5495
+
+Tseting Accuracy : 0.7057324840764331
+Confusion matrix
+[[2645  396]
+ [1221 1233]]
+
+.This is RandomForest Classifier model
+
+.This is KNN model
